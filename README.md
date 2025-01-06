@@ -78,20 +78,21 @@ travel-story-app/
 │   │   ├── hooks/        # Custom React hooks
 │   │   └── App.js        # Main React app
 │
-└── README.md             # Project documentation
+└── readme.md             # Project documentation
+
 
 ## API Endpoints
 **User Routes**
-POST /api/users/register - Register a new user
-POST /api/users/login - Log in a user
-GET /api/users/profile - Fetch user profile (requires authentication)
+- POST /api/users/register - Register a new user
+- POST /api/users/login - Log in a user
+- GET /api/users/profile - Fetch user profile (requires authentication)
 
 **Story Routes**
-GET /api/stories - Fetch all stories
-POST /api/stories - Create a new story
-PUT /api/stories/:id - Update a story
-DELETE /api/stories/:id - Delete a story
-GET /api/stories/search - Search and filter stories
+- GET /api/stories - Fetch all stories
+- POST /api/stories - Create a new story
+- PUT /api/stories/:id - Update a story
+- DELETE /api/stories/:id - Delete a story
+- GET /api/stories/search - Search and filter stories
 
 ## Contributing
 Fork the project.
