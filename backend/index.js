@@ -117,7 +117,7 @@ app.post('/image-upload', upload.single("image"), (req, res) => {
                 message: "no image uploaded"
             })
         }
-        const imageUrl = `http://localhost:8000/uploads/${req.file.filename}`
+        const imageUrl = `https://travel-book-journey-backend.onrender.com/uploads/${req.file.filename}`
         res.status(200).json({ imageUrl })
     } catch (err) {
         res.status(500).json({ error: true, message: error.message })
@@ -218,7 +218,7 @@ app.put("/edit-story/:id", authenticateToken, async (req, res) => {
             return res.status(400).json({ error: true, message: "Travel story not found" })
         }
 
-        const placeHolderImageUrl = `http://localhost:8000/assets/test1.png`
+        const placeHolderImageUrl = `https://travel-book-journey-backend.onrender.com/assets/test1.png`
 
         travelStory.title = title
         travelStory.story = story
