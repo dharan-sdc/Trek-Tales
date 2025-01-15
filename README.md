@@ -2,6 +2,31 @@
 
 A Full Stack Travel Story App built with MongoDB, Express, React, and Node.js. This application enables users to sign up, log in, and share personal travel stories. Features include image uploads, date tagging, search functionality, filtering by date range, and pinning favorite stories.
 
+---
+
+## Live Demo
+This project is live! Explore it here: [Travel Story App - Trek Tales](https://trektales.vercel.app/login)
+
+------
+
+## Demo
+
+### 1. Login Page
+![Login Page Demo](https://github.com/user-attachments/assets/ea70dce7-610a-4b90-b68a-5fbf4b41883b)
+
+### 2. Dashboard
+The dashboard allows users to view their profile and access all features.
+![Dashboard Demo](path-to-your-dashboard-image.png)
+
+### 3. Create a New Story
+Users can create a new travel story, upload images, and add tags.
+![Create Story Demo](path-to-your-create-story-image.png)
+
+### 4. View and Update Stories
+View all posted stories, update them, or delete as needed.
+![Story View Demo](path-to-your-story-view-image.png)
+
+---
 ## Features
 
 ### Backend
