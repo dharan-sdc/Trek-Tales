@@ -5,7 +5,7 @@ A Full Stack Travel Story App built with MongoDB, Express, React, and Node.js. T
 ---
 
 ## Live Demo
-This project is live! Explore it here: [Travel Story App - Trek Tales](https://trektales.vercel.app/login)
+This project is live! Explore it here: [Travel Book Journey App - Trek Tales](https://trektales.vercel.app/login)
 
 ------
 
@@ -16,15 +16,27 @@ This project is live! Explore it here: [Travel Story App - Trek Tales](https://t
 
 ### 2. Dashboard
 The dashboard allows users to view their profile and access all features.
-![Dashboard Demo](path-to-your-dashboard-image.png)
+![Dashboard Demo](https://github.com/user-attachments/assets/b7077ef5-6a03-4b14-bbc3-439f19a336ac)
+
 
 ### 3. Create a New Story
 Users can create a new travel story, upload images, and add tags.
-![Create Story Demo](path-to-your-create-story-image.png)
+![Create Story Demo](https://github.com/user-attachments/assets/bcf8e012-b9c4-4456-911b-f95ba5b6f60d)
+
 
 ### 4. View and Update Stories
 View all posted stories, update them, or delete as needed.
-![Story View Demo](path-to-your-story-view-image.png)
+![Story View Demo](https://github.com/user-attachments/assets/5b9789d5-4939-4de1-8bc2-619ea1e26cb7)
+
+### 5. Filter by date
+Intuitive date range filters to refine story search.
+![Filter date range](https://github.com/user-attachments/assets/4e33b8a3-89cf-4cb1-886b-1e558c5b4c28)
+
+
+### 6. Mobile View
+Responsive design optimized for mobile devices.
+![Mobile View](https://github.com/user-attachments/assets/1e7f6412-76b6-44d7-b74d-e51fba9e4fca)
+
 
 ---
 ## Features
