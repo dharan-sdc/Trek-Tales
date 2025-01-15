@@ -82,11 +82,9 @@ Responsive design optimized for mobile devices.
 3.Configure environment variables:
 Create a .env file in the backend directory and add the following:
 
-    PORT=5000
+   
     MONGO_URI=your_mongodb_connection_string
     JWT_SECRET=your_jwt_secret
-    CLOUD_STORAGE_KEY=your_cloud_storage_key (optional)
-    Start the development servers:
 
 **Backend:**
 cd backend
@@ -108,6 +106,8 @@ travel-story-app/
 │   ├── middleware/       # Authentication & error handling
 │   └── server.js         # Entry point
 │
+
+
 ├── frontend/
 │   ├── src/
 │   │   ├── components/   # React components
