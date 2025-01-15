@@ -88,11 +88,11 @@ Create a .env file in the backend directory and add the following:
 
 **Backend:**
 cd backend
-npm start
+npm install
 
 **Frontend:**
-cd frontend
-npm run dev
+cd ../frontend
+npm install
 
 Access the app at http://localhost:8000.
 
