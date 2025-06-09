@@ -59,7 +59,6 @@ Responsive design optimized for mobile devices.
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JSON Web Tokens (JWT)
-- **Cloud Storage**: AWS S3 (or alternative for image handling)
 
 ## Installation
 
@@ -95,28 +94,6 @@ cd ../frontend
 npm install
 
 Access the app at http://localhost:8000.
-
-## Folder Structure
-travel-story-app/
-│
-├── backend/
-│   ├── controllers/      # API logic
-│   ├── models/           # MongoDB schemas
-│   ├── routes/           # API endpoints
-│   ├── middleware/       # Authentication & error handling
-│   └── server.js         # Entry point
-│
-
-
-├── frontend/
-│   ├── src/
-│   │   ├── components/   # React components
-│   │   ├── pages/        # App pages
-│   │   ├── hooks/        # Custom React hooks
-│   │   └── App.js        # Main React app
-│
-└── readme.md             # Project documentation
-
 
 ## API Endpoints
 **User Routes**
